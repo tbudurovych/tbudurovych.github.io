@@ -5,7 +5,7 @@ title:  "Parsing JSON in IronPython"
 
 I was working with TIBCO Spotfire that has hosted IronPython scripting. And I had to process some JSON data, which is easy in Python by doing `import json`. But that construct gives an import error in IronPython "No module named json".
 
-So I decided to use JavaScriptSerializer .NET classes that I used in C#:
+So I decided to use JavaScriptSerializer .NET class that I have been using in C#:
 
 {% highlight python %}
 peopleJson = '''[
