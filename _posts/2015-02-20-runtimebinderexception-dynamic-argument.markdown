@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Dynamic parameter type and RuntimeBinderException"
+tag: c# .net
 ---
 
 Let's look at the following C# code that calls method `Do` to get a list of strings and then removes one element from it.

@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Parsing JSON in IronPython"
+tag: ironpython .net
 ---
 
 I was working with TIBCO Spotfire that has hosted IronPython scripting. And I had to process some JSON data, which is easy in Python by doing `import json`. But that construct gives an import error in IronPython "No module named json".
