@@ -17,13 +17,6 @@ html, body {
 
 body {
   background-color: white;
-  font: 15px helvetica, arial, clean, sans-serif;
-  *font-size: small;
-  text-align: center;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-size: 100%;
 }
 
 h1 {
@@ -34,16 +27,8 @@ p {
   margin: 1em 0;
 }
 
-a {
-  color: #00a;
-}
-
 a:hover {
-  color: black;
-}
-
-a:visited {
-  color: #a0a;
+  color: green;
 }
 
 table {
@@ -80,26 +65,18 @@ ul.posts {
 
 .site {
   font-size: 110%;
-  text-align: justify;
   width: 42em;
   margin: 3em auto 2em auto;
   line-height: 1.5em;
 }
 
 .title {
-  color: #a00;
+  background-color: #eeffee;
   font-weight: bold;
   margin-bottom: 2em;
+  padding: 1em;
 }
 
-  .site .title a {
-    color: #a00;
-    text-decoration: none;
-  }
-
-  .site .title a:hover {
-    color: black;
-  }
 
   .site .title a.extra {
     color: #aaa;
@@ -107,15 +84,12 @@ ul.posts {
     margin-left: 1em;
   }
 
-  .site .title a.extra:hover {
-    color: black;
-  }
-
   .site .meta {
     color: #aaa;
   }
 
   .site .footer {
+    background-color: #eeffee;
     font-size: 80%;
     color: #666;
     border-top: 4px solid #eee;
@@ -128,9 +102,6 @@ ul.posts {
       margin-right: 3em;
     }
 
-      .site .footer .contact a {
-        color: #8085C1;
-      }
 
     .site .footer .rss {
       margin-top: 1.1em;
@@ -154,39 +125,7 @@ ul.posts {
 
   /* standard */
 
-  #post pre {
-    border: 1px solid #ddd;
-    background-color: #eef;
-    padding: 0 .4em;
-  }
 
-  #post ul,
-  #post ol {
-    margin-left: 1.35em;
-  }
-
-  #post code {
-    border: 1px solid #ddd;
-    background-color: #eef;
-    font-size: 85%;
-    padding: 0 .2em;
-  }
-
-    #post pre code {
-      border: none;
-    }
-
-  /* terminal */
-
-  #post pre.terminal {
-    border: 1px solid black;
-    background-color: #333;
-    color: white;
-  }
-
-  #post pre.terminal code {
-    background-color: #333;
-  }
 
 .post-tag {
   color: red;
