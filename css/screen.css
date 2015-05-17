@@ -6,10 +6,7 @@
 
 /* Global Reset */
 
-* {
-  margin: 0;
-  padding: 0;
-}
+
 
 html, body {
   height: 100%;
@@ -19,22 +16,13 @@ body {
   background-color: white;
 }
 
-h1 {
-  margin-bottom: 1em;
-}
 
-p {
-  margin: 1em 0;
-}
 
 a:hover {
   color: green;
 }
 
-table {
-  font-size: inherit;
-  font: 100%;
-}
+
 
 /*****************************************************************************/
 /*
@@ -65,7 +53,6 @@ ul.posts {
 
 .site {
   font-size: 110%;
-  width: 42em;
   margin: 3em auto 2em auto;
   line-height: 1.5em;
 }
@@ -113,22 +100,20 @@ ul.posts {
         border: 0;
       }
 
-/*****************************************************************************/
-/*
-/* Posts
-/*
-/*****************************************************************************/
-
-#post {
-
-}
-
-  /* standard */
-
-
 
 .post-tag {
   color: red;
   background-color: #eef;
   margin-left: 0.5em;
+}
+
+
+/*****************************************************************************/
+/*
+/* Bootstrap ovvrd
+/*
+/*****************************************************************************/
+
+@media (min-width: 1200px) {
+  .container { width: 800px; }
 }
