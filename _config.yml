@@ -1,3 +1,6 @@
 markdown: rdiscount
 highlighter: pygments
 paginate: 7
+name: My Programming
+description: My Programming - Taras Budurovych
+url: http://tbudurovych.github.io
